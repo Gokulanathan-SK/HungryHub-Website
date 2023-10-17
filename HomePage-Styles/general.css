@@ -1,23 +1,23 @@
 *{
-  font-family: 'myFont', 'Trebuchet MS','Lucida Sans', sans-serif;
+  font-family: 'Metroplolis-Regular', 'Trebuchet MS','Lucida Sans', sans-serif;
 }
 
 @font-face {
-  font-family: 'myFont';
+  font-family: 'Metroplolis-Regular';
   src: url('../font-styles/Metropolis-Regular.otf') format("opentype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'myFont';
+  font-family: 'Metroplolis-Regular';
   src: url('../font-styles/Metropolis-Bold.otf') format("opentype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'myFont';
+  font-family: 'Metroplolis-Regular';
   src: url('../font-styles/Metropolis-Light.otf') format("opentype");
   font-style: normal;
   font-weight: lighter;
