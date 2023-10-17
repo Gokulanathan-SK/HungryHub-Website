@@ -3,22 +3,22 @@
 }
 
 @font-face {
-  font-family: myFont;
-  src: url(../font-styles/Metropolis-Regular.otf);
+  font-family: 'myFont';
+  src: url('../font-styles/Metropolis-Regular.otf') format("opentype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: myFont;
-  src: url(../font-styles/Metropolis-Bold.otf);
+  font-family: 'myFont';
+  src: url('../font-styles/Metropolis-Bold.otf') format("opentype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  font-family: myFont;
-  src: url(../font-styles/Metropolis-Light.otf);
+  font-family: 'myFont';
+  src: url('../font-styles/Metropolis-Light.otf') format("opentype");
   font-style: normal;
   font-weight: lighter;
 }
@@ -26,5 +26,5 @@
 body{
   margin: 0;
   position: relative;
-  padding-bottom: 620px;
+  padding-bottom: 45vw;
 }
