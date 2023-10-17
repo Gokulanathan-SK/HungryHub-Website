@@ -33,13 +33,14 @@ a{
   width: 22.5rem;
   height: 18rem;
   object-fit: cover;
+  box-shadow: 1px 1px 5px rgba(120, 120, 120, 0.7);
   border-radius: 10px;
 }
 
 .food-brandname{
   display: inline-block;
   margin: 4px 0px;
-  font-weight: 500;
+  font-weight: bold;
 }
 .food-review{
   float:right;
