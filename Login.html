@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In - Hungry Hub</title>
+  <style>
+    body{
+      background-image: url(./Food-image/SignUp-background-image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      padding-left: 10vw;
+    }
+
+    *{
+      font-family: 'myFont';
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./Font-styles/Metropolis-Regular.otf);
+      font-style: normal;
+      font-weight: normal;
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./font-styles/Metropolis-Bold.otf);
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./font-styles/Metropolis-Light.otf);
+      font-style: normal;
+      font-weight: lighter;
+    }
+    h1{
+      color: #E74C3C;
+      padding-top: 3.2vw;
+      padding-bottom: 1vw;
+      font-size: 3.8vw;
+    }
+
+    .login-form-container{
+        width: 24%;
+        background-color: #1b1b1b;
+        opacity: 0.8;
+        padding: 3vw;
+        border-radius: 1vw;
+    }
+    .login-heading{
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 2vw;
+      font-size: 1.8vw;
+    }
+
+    input {
+        display: block;
+        width: 80%;
+        padding: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        padding-left: 3vw; 
+    }
+
+    #username {
+        background: url('./Icons/profile-user.png') no-repeat scroll 10px center;
+        background-size: 16px 16px;
+        background-color: #fff;
+        margin-bottom: 1vw;
+    }
+
+    #password {
+        background: url('./Icons/padlock.png') no-repeat scroll 10px center;
+        background-size: 16px 16px;
+        background-color: #fff;
+        margin-bottom: 1vw;
+    }
+
+    #submit{
+      background-color: #E74C3C;
+      padding-left: 0;
+      width: 100%;
+      margin-top: 2.5vw;
+      font-weight: bold;
+      color: #fff;
+      font-size: 1.4vw;
+    }
+
+    #submit:hover{
+      color: #E74C3C;
+      background-color: #fff;
+      transition: color 0.15s, background-color 0.15s;
+      cursor: pointer;
+    }
+    a{
+      color: #fff;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1.2vw;
+    }
+
+    .link-next{
+      display: block;
+      border-bottom: 1px solid #4a4a4a;
+      padding-bottom: 0.2vw;
+    }
+
+    .link-next:hover{
+      border-bottom: 1px solid #fce8e8;
+      color: #fcdbdb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hungry Hub</h1>
+  <form action="login-result.js">
+    <div class="login-form-container">
+      <p class="login-heading">Log In Here</p>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <input type="submit" id="submit" value="LOGIN">
+        <a class="link-next" href="index.html">Go Home</a>
+        <a class="link-next" href="#">Forgot Password?</a>
+    </div>
+  </form>
+</body>
+</html>   

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Hungry Hub</title>
+  <style>
+     body{
+      background-image: url(./Food-image/SignUp-background-image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      padding-left: 7vw;
+    }
+
+    *{
+      font-family: 'myFont';
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./Font-styles/Metropolis-Regular.otf);
+      font-style: normal;
+      font-weight: normal;
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./font-styles/Metropolis-Bold.otf);
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: myFont;
+      src: url(./font-styles/Metropolis-Light.otf);
+      font-style: normal;
+      font-weight: lighter;
+    }
+    h1{
+      color: #E74C3C;
+      padding-top: 0;
+      margin-top: 1.8vw;
+      padding-bottom: 1vw;
+      font-size: 3.8vw;
+    }
+
+    .signup-form-container{
+        width: 42%;
+        background-color: #1b1b1b;
+        opacity: 0.8;
+        padding: 2vw;
+        border-radius: 1vw;
+    }
+    .login-heading{
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 1.5vw;
+      font-size: 1.8vw;
+    }
+
+    input {
+        width: 24vw;
+        padding: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        padding-left: 1.6vw;
+    }
+
+    label{
+      color: #fff;
+      margin-top: 2vw;
+    }
+    #submit{
+      background-color: #E74C3C;
+      padding-left: 0;
+      width: 100%;
+      margin-top: 2.5vw;
+      font-weight: bold;
+      color: #fff;
+      font-size: 1.4vw;
+    }
+
+    #submit:hover{
+      color: #E74C3C;
+      background-color: #fff;
+      transition: color 0.15s, background-color 0.15s;
+      cursor: pointer;
+    }
+    a{
+      color: #fff;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1.2vw;
+    }
+
+    .link-next{
+      display: block;
+      border-bottom: 1px solid #4a4a4a;
+      padding-bottom: 0.2vw;
+    }
+
+    .link-next:hover{
+      border-bottom: 1px solid #fce8e8;
+      color: #fcdbdb;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hungry Hub</h1>
+    <form action="signup-results.js">
+      <div class="signup-form-container">
+          <p class="login-heading">Sign Up Here</p>
+          <table cellspacing="12vw">
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" placeholder="Enter Your Name" required></td>
+          </tr>     
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" name="email" placeholder="Enter Your Email - Eg: example@gmail.com" required></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" id="password" name="password" placeholder="Enter Your Hungry Hub Password" required></td>
+          </tr>
+          <tr>
+            <td><label for="confirm-password">Confirm Password</label></td>
+            <td><input type="password" id="confirm-password" name="confirm-password" placeholder="Re-Enter Your Password" required></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td><input type="text" id="address" name="address" placeholder="Enter Your Delivery Location" required></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" id="submit" value="SIGNUP"></td>
+          </tr>
+          </table>
+          <a class="link-next" href="index.html">Go Home</a>
+      </div>         
+    </form>
+</body>
+</html>

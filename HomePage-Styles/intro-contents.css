@@ -1,0 +1,63 @@
+.brand-name{
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 7vw;
+  color: #fff;
+  font-weight: bold;
+}
+
+.brand-intro{
+  position: absolute;
+  top: 48%;
+  width: 100%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: 300;
+  color: #fff;
+  line-height: 50px;
+}
+
+.firstorder-recommend{
+  background-color: rgb(248, 248, 248);
+  padding: 1rem;
+}
+
+.bestbrand-recommend{
+  padding: 1rem;
+}
+
+.heading-3{
+  font-size: 2.2rem;
+}
+
+.inpirational-image-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+.inpirational-container{
+  margin: 0px 10px;
+}
+
+.trendfood-image{
+  border-radius: 100%;
+  cursor: pointer;
+  height: 8rem;
+  width: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+  display: block;
+  margin: auto;
+}
+
+.trendfood-name{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
