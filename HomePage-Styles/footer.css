@@ -45,15 +45,19 @@ footer{
 
 .footer-flex1{
   flex: 1;
+  padding-left: 4vw;
 }
 .footer-flex2{
   flex: 1;
+  margin-right: 2vw;
 }
 .footer-flex3{
   flex: 1;
+  padding-left: 4vw;
 }
 .footer-flex4{
   flex: 1;
+  padding-left: 4vw;
 }
 .footer-flex4 a svg:hover{
   fill:#E74C3C;
@@ -72,7 +76,7 @@ footer{
 }
 
 .footer-rights-terms{
-  padding-top: 8px;
+  padding: 8px 10px;
   word-spacing: 1px;
   line-height: 1.5;
 }
