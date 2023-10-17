@@ -17,7 +17,7 @@
   font-size: 3.5vw;
   font-weight: 300;
   color: #fff;
-  line-height: 50px;
+  line-height: 4vw;
 }
 
 .firstorder-recommend{
@@ -48,8 +48,8 @@
 .trendfood-image{
   border-radius: 100%;
   cursor: pointer;
-  height: 8rem;
-  width: 8rem;
+  height: 10vw;
+  width: 10vw;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
   display: block;
   margin: auto;
@@ -57,7 +57,7 @@
 
 .trendfood-name{
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 2vw;
+  font-weight: lighter;
   margin-top: 10px;
 }
